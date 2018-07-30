@@ -4,6 +4,8 @@ public class ChatMessage {
     private MessageType type;
     private String content;
     private String sender;
+    private String destination;
+    private String admin;
 
     public enum MessageType {
         CHAT,
@@ -34,4 +36,22 @@ public class ChatMessage {
     public void setSender(String sender) {
         this.sender = sender;
     }
+
+	public String getDestination() {
+		return destination;
+	}
+
+	public void setDestination(String destination) {
+		this.destination = destination;
+	}
+
+	public String getAdmin() {
+		return admin;
+	}
+
+	public void setAdmin(String admin) {
+		this.admin = admin;
+	}
+    
+    
 }
