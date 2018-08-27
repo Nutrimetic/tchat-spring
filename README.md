@@ -1,2 +1,8 @@
-# tchat-spring : le code est inspiré du travail réalisé par Callicoder sur https://www.callicoder.com/spring-boot-websocket-chat-example/ .
-# Le projet vise à aller plus loin en mettant en place une communication point à point.
+# tchat-spring 
+
+Projet de mise en place d'une communication point à point entre deux personnes. le code est inspiré du travail réalisé par [Callicoder](https://www.callicoder.com/spring-boot-websocket-chat-example/)
+
+## Built With
+
+* [Maven](https://maven.apache.org/) - Dependency Management
+
